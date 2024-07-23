@@ -1,0 +1,149 @@
+:root
+
+{  --font-base1 :"IcoFont";
+    --font-base2 :"FontAwesome";
+
+    --c-primary :#975af9;
+    --c-secondry :#46a7f8;
+    --c-background:#e6e6e6;
+    --c-dark :#2d2d2d;
+    --c-black :#0000;
+
+}
+
+.body
+{
+    font-family: var(--font-base1);
+    color: var(--c-primary);
+    
+    
+
+}
+
+.nav
+{
+    border: solid 2px #063df260;
+    width: 1500px !important;
+    background-color: #dadff3fc !important;
+    box-shadow: 0.1px 5px 5px #7f8eb8;
+}
+
+
+
+.font
+{
+    color:#0c0101 !important;
+}
+
+
+
+
+.photo1
+{
+	width:400px;
+	height:400px;
+	opacity:0.5;
+}
+
+.para
+{
+	padding-left:20px;
+	border-left:solid 3px #72749e;
+	margin:40px;
+	
+}
+
+.jt
+{
+	text-align:justify;
+	font-family:'Trebuchet MS', sans-serif;
+}
+.center
+{
+	text-align:center !important;
+	font-family:'Trebuchet MS', sans-serif ;
+}
+
+.section
+{
+  position: relative;
+  left:-10px;
+  top: 30px;
+  width: 1315px;
+  height:300px;
+  padding:20px;
+  background-color:#01015ddf;  
+}
+
+.first_section
+{
+	
+	height:250px;
+	padding:10px;
+    margin: 10px;
+	border-right:solid 3px  #72749e;
+	
+}
+.symbol1
+{
+	width:30px;
+	height:40px;
+	padding:3px;
+	border:solid 3px #01015d00 ;
+    background-color:#01015d00;  
+  
+}
+.symbol2
+{
+	width:30px;
+	height:30px;
+	padding:3px;
+	border:solid 3px #01015d00 ;
+	background-color:#01015d00;
+}
+.symbol3
+{
+	width:30px;
+	height:30px;
+	padding:1px;
+	border:solid 3px #01015d00 ;
+	background-color:#01015d00;
+}
+
+.second_section
+{
+	
+	border-right:solid 3px #72749e ;
+    padding: 20px;
+    height: 250px;
+    margin-top: 10px;
+
+}
+
+.third_section
+{
+    position: absolute;
+    left: 1050px;
+    top:680px;
+	border:solid 3px #72749e;
+	border-radius:5%;
+	
+}
+
+a
+{
+    font-family: var(--font-base1);
+    cursor: auto;
+    
+}
+
+a:hover
+{
+    color: rgb(68, 22, 234) !important;
+}
+
+.font1
+{
+    color:#fdfdfd !important;
+    text-decoration: none;
+}

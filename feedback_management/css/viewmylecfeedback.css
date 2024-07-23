@@ -1,0 +1,35 @@
+:root
+
+{  --font-base1 :"IcoFont";
+    --font-base2 :"FontAwesome";
+
+    --c-primary :#975af9;
+    --c-secondry :#46a7f8;
+    --c-background:#e6e6e6;
+    --c-dark :#2d2d2d;
+    --c-black :#0000;
+
+}
+
+.body
+{
+    font-family: var(--font-base1);
+    color: var(--c-primary);
+    
+
+}
+
+.nav
+{
+    border: solid 2px #063df260;
+    width: 1500px !important;
+    background-color: #dadff3fc !important;
+    box-shadow: 0.1px 5px 5px #7f8eb8;
+}
+
+
+
+.font
+{
+    color:#0c0101 !important;
+}

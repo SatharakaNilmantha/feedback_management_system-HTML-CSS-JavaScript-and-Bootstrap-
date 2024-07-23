@@ -1,0 +1,89 @@
+:root
+
+{  --font-base1 :"IcoFont";
+    --font-base2 :"FontAwesome";
+
+    --c-primary :#975af9;
+    --c-secondry :#46a7f8;
+    --c-background:#e6e6e6;
+    --c-dark :#2d2d2d;
+    --c-black :#0000;
+
+}
+
+.body
+{
+    font-family: var(--font-base1);
+    color: var(--c-primary);
+    
+
+}
+
+.nav
+{
+    border: solid 2px #063df260;
+    width: 1500px !important;
+    background-color: #dadff3fc !important;
+    box-shadow: 0.1px 5px 5px #7f8eb8;
+}
+
+
+
+.font
+{
+    color:#0c0101 !important;
+}
+
+
+/*-------hero section-----*/
+
+.image
+{
+    width: 1200px;
+    height: 600px;
+    opacity:0.7;
+    animation-name: example1;
+    animation-duration: 3s;
+}
+
+@keyframes example1 {
+    from {opacity:0.1;}
+    to {opacity:0.7;}
+  }
+
+
+.word
+{
+    position: relative;
+    background-color: none;
+    text-align:left;
+    font-size: 60px;
+    color:#e6e6e6;
+    font-weight: 500 !important;
+    
+
+    
+    animation-name: example;
+    animation-duration: 3s;  
+    animation-fill-mode: forwards;
+}
+
+@keyframes example {
+    from {bottom: 0px;}
+    to {bottom: 130px; color: #c9d3f1;}
+  }
+
+
+
+
+a
+{
+    font-family: var(--font-base1);
+    cursor: auto;
+    
+}
+
+a:hover
+{
+    color: rgb(68, 22, 234) !important;
+}

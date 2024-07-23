@@ -1,0 +1,88 @@
+:root
+
+{
+    --font-base1 :"IcoFont";
+    --font-base2 :"FontAwesome";
+
+    --c-primary :#8b7f9d;
+    --c-secondry :#46a7f8;
+    --c-background:#e6e6e6;
+    --c-dark :#2d2d2d;
+    --c-black :#0000;
+
+
+}
+
+.body
+{
+    font-family: var(--font-base1);
+    color: var(--c-primary);
+    margin-bottom: 20px !important;
+    
+
+}
+
+.bod
+{
+    position: relative;
+    top: 20px;
+    background: #e2d8fc5a !important;
+    height: 670px;
+    border-radius: 10px;
+
+}
+
+.icon
+{
+    width: 150px !important;
+    height: 150px !important;
+    position: relative;
+    left: 200px;
+}
+.font
+{
+    color:#0c0101 !important;
+    font-size:50px !important;
+    
+}
+
+.font1
+{
+    color:#2e0093 !important;
+    font-size:30px !important;
+}
+
+
+.form-style
+{  
+   width: 400px !important;
+   background-color: rgba(231, 244, 255, 0.545);
+   position: relative;
+   left: 100px;
+   border-radius: 10px;
+}
+
+
+.butt1
+{
+    margin-top: 15px !important;
+}
+
+.butt2
+{
+    margin-left: 130px !important;
+}
+
+.image
+{
+    border-left: solid 4px rgb(2, 10, 157);
+    border-radius: 10px;
+    position: relative;
+    left: 10px;
+    
+}
+
+
+
+
+

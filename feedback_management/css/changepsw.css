@@ -1,0 +1,112 @@
+:root
+
+{
+    --font-base1 :"IcoFont";
+    --font-base2 :"FontAwesome";
+
+    --c-primary :#8b7f9d;
+
+}
+
+.body
+{
+    font-family: var(--font-base2);
+    color: var(--c-primary);
+    
+
+}
+
+.bod
+{
+    position: relative;
+    top: 20px;
+    background: #e2d8fc5a !important;
+    height: 860px;
+    border-radius: 10px;
+
+}
+
+.icon
+{
+    width: 150px !important;
+    height: 150px !important;
+    position: relative;
+    left: 200px;
+}
+.font
+{
+    color:#0c0101 !important;
+    font-size:50px !important;
+    
+}
+
+.font1
+{
+    color:#2e0093 !important;
+    font-size:30px !important;
+}
+
+
+.form-style
+{  
+   width: 400px !important;
+   background-color: rgba(231, 244, 255, 0.545);
+   position: relative;
+   left: 70px;
+   border-radius: 10px;
+}
+
+
+
+.butt1
+{
+   margin-top: 20px;
+   margin-left: 130px !important;
+}
+
+.image
+{
+    
+    position: relative;
+    left: 20px;
+    width: 600px;
+    height: 500px;
+    opacity:0.8;
+    border-left: solid 7px rgb(1, 1, 67);
+    border-right: solid 7px rgb(5, 5, 84);
+    border-top-left-radius: 100px;
+    border-bottom-right-radius: 100px;
+    animation-name: example1;
+    animation-duration: 3s;
+    
+    
+}
+@keyframes example1 {
+    from {opacity:0.1;}
+    to {opacity:0.8;}
+  }
+
+
+.image1
+{
+    
+    position: relative;
+    left: 119px;
+    top: 56px;
+    width: 400px !important;
+    height: 530px;
+    opacity: 0.4;
+    border-radius: 10px;
+    
+    
+}
+
+
+
+
+.all
+{
+    position: relative;
+    top: -500px;
+
+}
